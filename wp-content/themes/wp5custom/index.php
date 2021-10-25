@@ -31,7 +31,7 @@
 
     <div class="container">
       <div class="blog-header">
-        <h1 class="blog-title">Plantilla Wordpress</h1>
+        <h1 class="blog-title"><?php bloginfo('name'); ?></h1>
         <p class="lead blog-description">Como crear una plantilla para wodpress con bootstrap</p>
       </div>
 
@@ -44,7 +44,7 @@
             <p class="blog-post-meta">Enero 1, 2018 por <a href="#">render2web</a></p>
 
             <div class="caja">
-             <img src="img/beautiful-girl-2003647_1920-2.jpg" class="img-responsive">
+             <img src="<?php bloginfo('template_url'); ?>/img/beautiful-girl-2003647_1920-2.jpg" class="img-responsive">
             </div>
 
             <p>urabitur blandit tempus porttitor. <strong>Nullam quis risus eget urna mollis</strong> ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -63,7 +63,7 @@
 
         <div class="col-md-4 modulo-sidebar">
              <h4>Calendario</h4>
-             <img src="img/Calendario.jpg" class="img-responsive">
+             <img src="<?php bloginfo('template_url'); ?>/img/Calendario.jpg" class="img-responsive">
           </div>
 
 
