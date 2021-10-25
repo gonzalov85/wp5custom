@@ -12,9 +12,9 @@
         <?php is_front_page() ? bloginfo('description') : wp_title(); ?>
     </title>
     <!-- Bootstrap core CSS -->
-    <link href="<?php bloginfo('template_url'); ?>/bootstrap.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="<?php bloginfo('template_url'); ?>/style.css" rel="stylesheet">
+    <link href="<?php bloginfo('template_url'); ?>/css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="blog-masthead">
@@ -79,6 +79,6 @@
     </footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="<?php bloginfo('template_url'); ?>/js/bootstrap.js"></script>
   </body>
 </html>
